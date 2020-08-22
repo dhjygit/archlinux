@@ -11,12 +11,10 @@ bindsym ctrl+Mod1+j workspace next
 exec_always picom -b
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id feh --bg-scale "/home/luis/.config/i3/background.jpg"
-exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id exec qv2ray
 exec_always sleep 2; exec /home/luis/.exchange_map.sh
 exec_always --no-startup-id exec xset r rate 200 30
 exec_always --no-startup-id exec xinput disable 17
-exec_always --no-startup-id exec bash /home/luis/.exchange_xrandr.sh
 #########################################################################################
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
@@ -33,7 +31,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 #########################################################################################
 
 bindsym $mod+shift+f exec bash /home/luis/.switch_picom.sh
-bindsym $mod+shift+i exec /home/luis/software/PicGo-2.3.0-beta.0.AppImage
+bindsym $mod+shift+i exec bash /home/luis/.exchange_xrandr.sh
 
 # == rofi == #
 bindsym $mod+d exec rofi -show drun
