@@ -1,0 +1,14 @@
+Xft.dpi: 125
+xterm.termName: xterm-256color
+xterm*decTerminalID: vt340
+xterm.borderLess: true
+xterm*ScrollBar: false
+xterm*faceName: Source Code Pro
+xterm*faceNameDoublesize: WenQuanYi Micro Hei
+xterm*faceSize: 14
+xterm*allowBoldFonts: true
+xterm.utf8: true
+xterm*utf8Title: true
+!xterm*foreground: grey100 
+xterm*background: rgb:15/15/15
+!xterm*background: black
