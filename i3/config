@@ -13,8 +13,8 @@ exec_always --no-startup-id fcitx
 exec_always --no-startup-id feh --bg-scale "/home/luis/.config/i3/background.jpg"
 exec_always --no-startup-id exec qv2ray
 exec_always sleep 2; exec /home/luis/.exchange_map.sh
+exec_always sleep 1; exec /home/luis/.toggle_touchpad.sh
 exec_always --no-startup-id exec xset r rate 200 30
-exec_always --no-startup-id exec xinput disable 17
 #########################################################################################
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet

@@ -32,8 +32,8 @@ pause = #999
 ;==========================================================
 
 [bar/luispolybar]
-;monitor = ${env:MONITOR:eDP-1}
-monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:eDP-1}
+;monitor = ${env:MONITOR:HDMI-1}
 dpi = 100
 bottom = true
 width = 100%
