@@ -27,13 +27,13 @@ scrolling:
 font:
   normal:
     family: SourceCodePro
-    style: Bold
+    style: Regular
   bold:
     family: SourceCodePro
     style: Bold
   italic:
     family: SourceCodePro
-    style: Bold
+    style: Italic
   size: 14.0
   offset:
     x: 0
