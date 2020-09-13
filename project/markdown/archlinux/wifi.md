@@ -1,0 +1,13 @@
+`jnu.conf`
+```
+ctrl_interface=/run/wpa_supplicant
+update_config=1
+network={
+	ssid="JNU-Secure"
+    scan_ssid=1
+    key_mgmt=WPA-EAP
+    eap=PEAP
+	identity="2019051204"
+    password="ABCabc051204"
+}
+```
